@@ -3,9 +3,9 @@ package scenarioTest;
 import personnages.Gaulois;
 import produit.Poisson;
 import produit.Sanglier;
-import villagegaulois.DepenseMarchand;
-import villagegaulois.Etal;
-import villagegaulois.IEtal;
+import villagegauloisold.DepenseMarchand;
+import villagegauloisold.Etal;
+import villagegauloisold.IEtal;
 
 public class Scenario {
 

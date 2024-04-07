@@ -1,6 +1,6 @@
 package produit;
 
-public abstract class Produit {
+public abstract class Produit implements IProduit {
 	String nom;
 	String unite;
 	
