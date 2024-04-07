@@ -1,13 +1,15 @@
 package scenarioTest;
 
 import personnages.Gaulois;
+
 import produit.Poisson;
 import produit.Produit;
 import produit.Sanglier;
-import villagegauloisold.Etal;
-import villagegauloisold.IEtal;
+import villagegaulois.Etal;
+import villagegaulois.IEtal;
 
-public class ScenarioTest {
+
+public class ScenarioTest{
 	public static void main(String[] args) {
 		
 		Gaulois ordralfabetix = new Gaulois("Ordralfabétix",9);
@@ -28,7 +30,9 @@ public class ScenarioTest {
 		Etal<Sanglier> etalsang2 = new Etal<>();
 		Etal<Poisson> etalpois = new Etal<>();
 		
-		
+		etalsang1.installerVendeur(obelix, sangliersObelix, 8);
+		etalsang2.installerVendeur(asterix, sangliersAsterix, 10);
+		etalpois.installerVendeur(ordralfabetix, poissons, 7);
 		
 		
 //		Etal etalsang = new Etal();

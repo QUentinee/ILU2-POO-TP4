@@ -14,4 +14,6 @@ public abstract class Produit implements IProduit {
 	}
 	
 	public abstract String description();
+	
+	public abstract int calculerPrix(int prix);
 }

@@ -12,5 +12,11 @@ public class Poisson extends Produit{
 	public String description() {
 		return nom + " pêchés " + jour;
 	}
+
+	@Override
+	public int calculerPrix(int prix) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 }

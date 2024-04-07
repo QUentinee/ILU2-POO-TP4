@@ -15,4 +15,11 @@ public class Sanglier extends Produit{
 	public String description() {
 		return nom + " de " + poids + unite + " chassé par " + chasseur.getNom();
 	}
+
+	@Override
+	public int calculerPrix(int prix) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
